@@ -1,0 +1,25 @@
+app:
+  name: LOL AI Coach
+  version: 0.1.0
+  debug: true
+
+capture:
+  fps: 1
+  monitor: 1
+
+vision:
+  endpoint: http://127.0.0.1:8080
+  timeout: 30
+
+tts:
+  enabled: true
+
+overlay:
+  enabled: true
+
+coach:
+  repeat_seconds: 20
+
+logging:
+  level: INFO
+  file: logs/app.log

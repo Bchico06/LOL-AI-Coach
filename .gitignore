@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env
+.venv/
+
+# Logs
+logs/*.log
+logs/screenshots/*.png
+
+# Database
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# Models
+models/
